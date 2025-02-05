@@ -1,5 +1,4 @@
 import java.util.*;
-
 class GFG {
     static int octaltodecimal(int deciNum)
     {
@@ -13,11 +12,10 @@ class GFG {
       }
       return octal;
     }
-
     public static void main(String[] args)
     {
         int n = 33;
-        octaltodecimal(n);
+        // octaltodecimal(n);
         System.out.println("Octal equivalent of " + n + " is: " + octaltodecimal(n));
     }
 }
