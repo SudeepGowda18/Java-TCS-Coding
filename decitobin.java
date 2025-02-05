@@ -16,7 +16,7 @@ public class decitobin {
     }
 
     public static void main(String args[]) {
-        int n = 15;
+        int n = 78;
         System.out.println(decToBinary(n));
         }
     }
