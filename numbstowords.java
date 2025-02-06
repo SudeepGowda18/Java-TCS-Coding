@@ -19,7 +19,7 @@ public class numbstowords {
         } else if (num < 100) {
             return tens[num / 10] + " " + convert(num % 10);
         } else if (num < 1000) {
-            return units[num / 100] + " hundred and " + convert(num % 100);
+            return units[num / 100] + " hundred " + convert(num % 100);
         } else if (num < 1000000) {
             return convert(num / 1000) + " thousand " + convert(num % 1000);
         } else if (num < 1000000000) {
@@ -30,7 +30,7 @@ public class numbstowords {
     }
 
     public static void main(String[] args) {
-        int num = 1234;
+        int num = 1234451216;
         System.out.println(convertToWords(num));
     }
 }
