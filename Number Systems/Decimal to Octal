@@ -15,7 +15,10 @@ class GFG {
     public static void main(String[] args)
     {
         int n = 33;
+<<<<<<<< HEAD:deciTooct.java
+========
         // octaltodecimal(n);
+>>>>>>>> 8a5197422a354c32fd31eeae816722c22a741266:Number Systems/Decimal to Octal
         System.out.println("Octal equivalent of " + n + " is: " + deciTooct(n));
     }
 }
