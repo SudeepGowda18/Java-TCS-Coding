@@ -1,5 +1,4 @@
 public class insertionSort {
-    public class InsertionSort {
         static void insertionSort(int[] arr, int n) {
             for (int i = 1; i < arr.length; i++) {
                 int j = i;
@@ -21,7 +20,5 @@ public class insertionSort {
         public static void main(String[] args) {
             int arr[] = {5, 4, 8, 1, 2, 6};
             insertionSort(arr, 6);
-        }
-    }
-    
+        }    
 }
