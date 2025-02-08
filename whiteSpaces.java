@@ -17,3 +17,7 @@ public class whiteSpaces {
             System.out.println(modify(s));
         }
     }
+
+    //alternative
+    // str = str.replaceAll("\\s", "");
+    // return str;
