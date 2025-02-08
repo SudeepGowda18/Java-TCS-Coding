@@ -1,3 +1,4 @@
+package Strings;
 public class removeBrackets {
     static String solve(String input) {
         return input.replaceAll("[(),{}]", "");
