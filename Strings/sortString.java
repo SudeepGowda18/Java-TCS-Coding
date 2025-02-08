@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class sortString {
     static String sortString(String str) {
         int[] freq = new int[26];
@@ -12,6 +14,14 @@ public class sortString {
             }
         }
         return res.toString();
+        
+        //Alternative
+
+    //     char[] ch = str.toCharArray();
+    //     Arrays.sort(ch);
+    //     String ans = new String(ch);
+    //     return ans;
+    // 
     }
     public static void main(String[] args) {
         String str = "Sushanth";
