@@ -1,3 +1,4 @@
+package Strings;
 import java.util.Scanner;
 public class countCharacters {
     static void countCharacters(String str) {
