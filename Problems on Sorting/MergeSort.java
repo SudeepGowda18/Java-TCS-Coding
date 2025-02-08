@@ -31,7 +31,7 @@ public class MergeSort {
             r++;
         }
         for (int i = left; i <= right; i++) {
-            arr[i] = temp.get(i - left);
+            arr[i] = temp.get(i );
         }
     }
     public static void main(String[] args) {
