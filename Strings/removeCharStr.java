@@ -1,6 +1,6 @@
 import java.io.*;
 
-class removeChars {
+class removeCharsStr {
 	public static String removeChars(String string1,String string2)
 	{
       boolean[] charSet = new boolean[26];
