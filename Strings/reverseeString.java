@@ -1,4 +1,4 @@
-public class reverseString {
+public class reverseeString {
     static String revWords(String str) {
         String[] words = str.trim().split("\\s+");
         int n = words.length;
