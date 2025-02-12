@@ -15,7 +15,7 @@ public class reverseString {
 }
 
 
-// Alternative
+// Alternative method
 
 // public class reverseString {
 //     public static void main(String[] args) {

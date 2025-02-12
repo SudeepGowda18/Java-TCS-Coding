@@ -18,6 +18,7 @@ public class capitalizeFirstLast {
         }
         return result.toString();
     }
+    //Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");

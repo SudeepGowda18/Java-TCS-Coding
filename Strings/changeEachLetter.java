@@ -11,6 +11,7 @@ public class changeEachLetter {
         }
         return res.toString();
     }
+    //Main method
     public static void main(String[] args) {
         String str = "sUDEEP gOWDA";
         System.out.println(modify(str));

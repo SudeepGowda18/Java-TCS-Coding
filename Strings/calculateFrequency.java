@@ -14,6 +14,7 @@ public class calculateFrequency {
             }
         }
     }
+    //Main method
     public static void main(String[] args) {
         String str = "sudeep gowda";
         printFrequency(str);
