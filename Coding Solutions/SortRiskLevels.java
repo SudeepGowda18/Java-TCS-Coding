@@ -29,55 +29,6 @@ public class SortRiskLevels {
    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import java.util.*;
 
 //public class SortRiskLevels {
