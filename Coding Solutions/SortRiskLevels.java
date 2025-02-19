@@ -23,6 +23,7 @@ public class SortRiskLevels {
             System.out.print(num + " ");
         }
     }
+    //Main Method
    public static void main (String[] args){
        int[] arr = { 1,0,2,0,1,0,2};
        printValues(arr);

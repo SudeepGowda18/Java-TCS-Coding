@@ -13,6 +13,7 @@ public class SmallestFrequentChar {
         }
         return '-';
     }
+    //Main Method
     public static void main(String[] args) {
         String s = "sudeep gowda";
         int p = 1;
