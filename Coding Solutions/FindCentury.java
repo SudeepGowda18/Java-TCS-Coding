@@ -9,6 +9,7 @@ public class FindCentury {
         }
     }
 
+    //Main Method
     public static void main(String[] args) {
         System.out.println("Enter the year : ");
         Scanner sc = new Scanner(System.in);
