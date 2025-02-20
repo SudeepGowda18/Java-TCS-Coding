@@ -11,6 +11,7 @@ public class toggleBits {
         }
         return res.toString();
     }
+    //Main Method
     public static void main(String[] args) {
         int num = 75;
         System.out.println("Original "+ Integer.toBinaryString(num));
