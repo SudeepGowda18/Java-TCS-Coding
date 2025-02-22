@@ -17,6 +17,7 @@ public class SecretKeyFinder {
         }
         return key.toString();
     }
+    //Main Method
     public static void main(String[] args) {
         String str1 = "Sudeep";
         String str2 = "gowda";
