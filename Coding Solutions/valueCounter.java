@@ -31,6 +31,7 @@ public class valueCounter {
         }
         System.out.println("vowel : " + vowels +","+" consonants : " + consonants +","+ " digits : " + digits +","+ " special : " + special + "," +"spaces : " + spaces);
     }
+    //Main Method
     public static void main(String[] args) {
         String str = "Sudeep@2554!!";
         countValues(str);

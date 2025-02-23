@@ -20,6 +20,7 @@ public class rotate90 {
             System.out.println();
         }
     }
+    //Main Method
     public static void main(String[] args) {
         int[][] mat = {
             { 1, 2, 3, 4 },
