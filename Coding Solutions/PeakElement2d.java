@@ -1,8 +1,8 @@
 public class PeakElement2d {
     public static void findValidPeak(int[][] mat) {
-        int rows = mat.length;
+        int row = mat.length;
         int cols = mat[0].length;
-        for (int i = 0; i < rows; i++) {
+        for(int i=0;i<row;i++){
             for (int j = 0; j < cols; j++) {
                 boolean isPeak = true;
                 //Left
@@ -15,12 +15,13 @@ public class PeakElement2d {
                 if (i > 0 && mat[i][j] < mat[i - 1][j])
                     isPeak = false;
                 //Down
-                if (i < rows - 1 && mat[i][j] < mat[i + 1][j])
+                if (i < row - 1 && mat[i][j] < mat[i + 1][j])
                     isPeak = false;
-                if (isPeak)
-                    System.out.println("Peak found at : (" + i + "," + j + ")"+ " = " + mat[i][j]);
+                if(isPeak)
+                System.out.println("Peak found at : (" + i + "," + j + ")"+ " = " + mat[i][j]);
             }
         }
+        
     }
     public static void main(String[] args) {
         int[][] mat = {
