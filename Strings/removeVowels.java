@@ -1,4 +1,3 @@
-package Strings;
 public class removeVowels {
     static String removeVowels(String s) {
         StringBuilder res = new StringBuilder();
