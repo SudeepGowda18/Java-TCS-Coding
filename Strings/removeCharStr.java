@@ -1,5 +1,3 @@
-import java.io.*;
-
 class removeCharsStr {
 	public static String removeChars(String string1,String string2)
 	{
