@@ -1,13 +1,12 @@
 public class SumOfFibonacci {
     public static int sumOfFibo(int n) {
-        if (n == 1)
+        if(n == 1)
             return 0;
         int first = 0;
         int second = 1;
         int sum = first + second;
-        int next = first + second;
         for (int i = 2; i < n; i++) {
-            next = first + second;
+            int next = first + second;
             sum += next;
             first = second;
             second = next;
