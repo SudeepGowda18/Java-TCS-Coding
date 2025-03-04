@@ -8,6 +8,7 @@ public class MoveZerosToEnd {
                 arr[index] = arr[i];
                 index++;
             }
+        }
             while (index < n) {
                 arr[index] = 0;
                 index++;
@@ -16,7 +17,6 @@ public class MoveZerosToEnd {
             for (int num : arr) {
                 System.out.print(num + " ");
             }
-        }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -23,21 +23,26 @@ public class CountSundays {
         // }
         // System.out.println("Number of days : " + count);
         Scanner sc = new Scanner(System.in);
-        String[] arr = { "mon", "tue", "wed", "thur", "fri", "sat", "sun" };
+        System.out.println("Enter the day");
         String str = sc.next();
+        System.out.println("Enter the days remain");
         int n = sc.nextInt();
+        String[] arr = { "mon", "tue", "wed", "thur", "fri", "sat", "sun" };
         int i = 0;
         for (i = 0; i < arr.length; i++) {
             if (arr[i].equals(str)) {
                 break;
             }
         }
-        int res = 1;
+        int res = 0;
         int rem = 6 - i;
-        n = n - rem;
+        if (n >= rem) {
+            res = 1;
+            n -= rem;
+        }
         if (n > 0) {
             res += n / 7;
         }
-        System.out.println(res);
+        System.out.println("Total Sundays is : " + res);
     }
 }
