@@ -13,5 +13,5 @@ public class RoundTableSeating {
         int n = sc.nextInt();
         int result = factorial(n) * 2;
         System.out.println(result);
-    }
+    } 
 }
