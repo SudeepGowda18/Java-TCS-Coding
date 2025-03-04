@@ -7,7 +7,7 @@ public class ShoePair {
         System.out.println("Enter the Number of Pairs");
         int n = sc.nextInt();
         // sc.nextLine();
-        Map<Integer, Integer> leftShoe = new HashMap<>(); 
+        Map<Integer, Integer> leftShoe = new HashMap<>();  
         Map<Integer, Integer> rightShoe = new HashMap<>();
         System.out.println("Enter Shoe size in pair. Eg. 7R, 8R");
         for (int i = 0; i < n; i++) {
