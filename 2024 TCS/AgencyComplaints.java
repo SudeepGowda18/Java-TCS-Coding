@@ -22,7 +22,7 @@ public class AgencyComplaints {
                 result /= 10;
             }
             result = temp;
-        }
+        } 
         //Main Method
         System.out.println("Output : "+result);
     }
