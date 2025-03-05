@@ -8,7 +8,7 @@ public class AgencyComplaints {
         System.out.println("Enter the Value R");
         int R = sc.nextInt();
         sc.close(); 
-        int sum = 0; 
+        int sum = 0;  
         while (N > 0) { 
             int digit = N % 10;
             sum += digit;
