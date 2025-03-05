@@ -20,7 +20,7 @@ public class AgencyComplaints {
             while (result > 0) {
                 temp += result % 10;
                 result /= 10;
-            }
+            } 
             result = temp;
         } 
         //Main Method
