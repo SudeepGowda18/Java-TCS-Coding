@@ -18,4 +18,4 @@ public class WareHouse {
             System.out.println("Number is not divisible by 9");
         }
     }
-}
+} 
