@@ -19,6 +19,9 @@ public class SortRiskLevel {
                 high--;
             }
         }
+        for (int num : arr) {
+            System.out.print(num);
+        }
     }
 
     public static void main(String[] args) {
@@ -31,8 +34,5 @@ public class SortRiskLevel {
             arr[i] = sc.nextInt();
         }
         sortRisk(arr);
-        for(int num : arr){
-            System.out.print(num);
-        }
     }
 }

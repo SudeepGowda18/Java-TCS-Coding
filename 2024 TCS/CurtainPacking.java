@@ -3,39 +3,38 @@ import java.util.Scanner;
 public class CurtainPacking {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the string:");
-        // String str = sc.nextLine();
-        // System.out.println("Enter the value of L:");
+        // System.out.println("Enter the String");
+        // String str = sc.next();
+        // System.out.println("Enter the Value of L");
         // int L = sc.nextInt();
-        // sc.close();
-        // int maxA = 0;
         // int n = str.length();
+        // int maxA = 0;
         // for (int i = 0; i < n; i += L) {
         //     int countA = 0;
         //     for (int j = i; j < Math.min(i + L, n); j++) {
-        //         if (str.charAt(j) == 'a')
+        //         if (str.charAt(j) == 'a') {
         //             countA++;
+        //         }
         //     }
         //     maxA = Math.max(maxA, countA);
         // }
         // System.out.println(maxA);
-        // sc.close();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String");
-        String str = sc.next();
+        String str = sc.next().toLowerCase();
         System.out.println("Enter the Value of L");
         int L = sc.nextInt();
         int n = str.length();
         int maxA = 0;
-        for (int i = 0; i < n; i += L) {
+        for (int i = 0; i < n; i++) {
             int countA = 0;
-            for (int j = i; j < Math.min(i + L, n); j++) {
-                if (str.charAt(j) == 'a') {
+            for (int j = i; j < Math.min((i + L), n); j++) {
+                if (str.charAt(j) == 'r') {
                     countA++;
                 }
             }
             maxA = Math.max(maxA, countA);
         }
-        System.out.println(maxA);
+        System.out.println("Output : " + maxA);
     }
 }
