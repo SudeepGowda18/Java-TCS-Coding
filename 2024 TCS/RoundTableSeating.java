@@ -7,11 +7,11 @@ public class RoundTableSeating {
             fact *= i;
         }
         return fact;
-    }
+    } 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int result = factorial(n) * 2;
         System.out.println(result);
-    }
+    } 
 }
