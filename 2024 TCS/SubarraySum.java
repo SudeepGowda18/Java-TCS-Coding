@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class SubarraySum {
-    public static List<List<Integer>> findSubarraySum(int[] arr, int target) {
+public class SubArraySum {
+    public static List<List<Integer>> findSubArraySum(int[] arr, int target) {
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             int sum = 0;
@@ -16,10 +16,9 @@ public class SubarraySum {
         }
         return result;
     }
-
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int target = 3;
-        System.out.println(findSubarraySum(arr, target));
+        int[] arr = { 1, 4, 5, 2, 3, 6, 7, 8 };
+        int sum = 4;
+        System.out.println(findSubArraySum(arr, sum));
     }
 }
