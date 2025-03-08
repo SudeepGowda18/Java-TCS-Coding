@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class SumOfCubes {
+public class SumOfTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int start = sc.nextInt();
-        int end = sc.nextInt();
         int sum = 0;
-        for (int i = start; i <= end; i++){
-        sum += i * i * i;
+        int n = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            sum += i * n;
         }
         System.out.println(sum);
         sc.close();
