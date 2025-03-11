@@ -8,7 +8,7 @@ public class Permutation {
         int[] p_inverse = new int[n + 1];
         System.out.println("Enter the values");
         for (int i = 1; i <= n; i++) {
-            int px = sc.nextInt();
+            int px = sc.nextInt(); 
             p_inverse[px] = i;
         } 
         sc.close();
