@@ -10,7 +10,7 @@ public class Permutation {
         for (int i = 1; i <= n; i++) {
             int px = sc.nextInt();
             p_inverse[px] = i;
-        }
+        } 
         sc.close();
         for (int i = 1; i <= n; i++) {
             int y = p_inverse[p_inverse[i]];
