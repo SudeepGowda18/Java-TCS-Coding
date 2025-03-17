@@ -13,7 +13,7 @@ public class AgencyComplaintss {
             int digit = N % 10;
             sum += digit;
             N /= 10;
-        }
+        } 
         int result = sum * R;
         while (result >= 10) {
             int temp = 0;
