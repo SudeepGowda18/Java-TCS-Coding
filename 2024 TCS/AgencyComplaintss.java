@@ -6,7 +6,7 @@ public class AgencyComplaintss {
         System.out.println("Enter the Number");
         int N = sc.nextInt();
         System.out.println("Enter the Value R");
-        int R = sc.nextInt();
+        int R = sc.nextInt(); 
         sc.close(); 
         int sum = 0; 
         while (N > 0) {
