@@ -21,7 +21,7 @@ public class AgencyComplaintss {
                 temp += result % 10;
                 result /= 10;
             }
-            result = temp;
+            result = temp; 
         }
         //Main Method
         System.out.println("Output : "+result);
