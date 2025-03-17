@@ -10,7 +10,7 @@ public class AgencyComplaintss {
         sc.close(); 
         int sum = 0; 
         while (N > 0) {
-            int digit = N % 10;
+            int digit = N % 10; 
             sum += digit;
             N /= 10;
         } 
