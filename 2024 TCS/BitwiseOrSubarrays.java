@@ -5,7 +5,7 @@ public class BitwiseOrSubarrays {
     public static int subarrayBitwiseOr(int[] arr) {
         Set<Integer> uniqueOr = new HashSet<>();
         Set<Integer> current = new HashSet<>();
-        for (int num : arr) {
+        for (int num : arr) { 
             Set<Integer> next = new HashSet<>();
             next.add(num);
             for (int val : current) {
