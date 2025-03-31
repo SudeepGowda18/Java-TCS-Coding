@@ -5,7 +5,7 @@ public class AgencyComplaintss {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number"); 
         int N = sc.nextInt();
-        System.out.println("Enter the Value R");
+        System.out.println("Enter the Value R"); 
         int R = sc.nextInt();  
         sc.close(); 
         int sum = 0; 
