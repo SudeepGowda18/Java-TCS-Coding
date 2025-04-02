@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MaxEfficiency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); 
-        System.out.println("Enter the Number of Employees");
+        System.out.println("Enter the Number of Employees"); 
         int n = sc.nextInt();
         int[] arr = new int[n];
         System.out.println("Enter employee efficiency"); 
