@@ -24,7 +24,7 @@ public class minOperation {
         if (increase == decrease) {
             return increase; 
         } else {
-            return -1; 
+            return -1;  
         }
     }
     public static void main(String[] args) {
