@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MaxEfficiency {
+public class MaxEfficiency { 
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the Number of Employees"); 
