@@ -15,7 +15,7 @@ public class minOperation {
         if (q > target)
             decrease += (q - target);
         else
-            increase += (target - q);
+            increase += (target - q); 
         if (r > target)
             decrease += (r - target);
         else
