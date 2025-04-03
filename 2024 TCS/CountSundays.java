@@ -3,7 +3,7 @@ import java.util.*;
 public class CountSundays {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the StartDay");
+        // System.out.println("Enter the StartDay"); 
         // String startDay = sc.next().toLowerCase();
         // System.out.println("Enter the Number of days left in a month");
         // int n = sc.nextInt();
