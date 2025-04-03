@@ -13,7 +13,7 @@ public class CountSundays {
         // dayMap.put("tue", 2);
         // dayMap.put("wed", 3);
         // dayMap.put("thu", 4);
-        // dayMap.put("fri", 5);
+        // dayMap.put("fri", 5); 
         // dayMap.put("sat", 6);
         // int startIndex = dayMap.get(startDay);
         // int firstSunday = (7 - startIndex) % 7;
