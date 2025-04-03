@@ -8,7 +8,7 @@ public class CountSundays {
         // System.out.println("Enter the Number of days left in a month");
         // int n = sc.nextInt();
         // Map<String, Integer> dayMap = new HashMap<>();
-        // dayMap.put("sun", 0);
+        // dayMap.put("sun", 0); 
         // dayMap.put("mon", 1);
         // dayMap.put("tue", 2); 
         // dayMap.put("wed", 3);
