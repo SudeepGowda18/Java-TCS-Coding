@@ -19,7 +19,7 @@ public class CountSundays {
         // int firstSunday = (7 - startIndex) % 7;
         // int count = 0;
         // for (int i = firstSunday; i <= n; i += 7) {
-        //     count++;
+        //     count++; 
         // }
         // System.out.println("Number of days : " + count);
         Scanner sc = new Scanner(System.in);
