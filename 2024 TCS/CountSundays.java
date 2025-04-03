@@ -10,7 +10,7 @@ public class CountSundays {
         // Map<String, Integer> dayMap = new HashMap<>();
         // dayMap.put("sun", 0);
         // dayMap.put("mon", 1);
-        // dayMap.put("tue", 2);
+        // dayMap.put("tue", 2); 
         // dayMap.put("wed", 3);
         // dayMap.put("thu", 4); 
         // dayMap.put("fri", 5); 
